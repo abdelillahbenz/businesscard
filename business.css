@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Poppins&family=Sora:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F2F5F9;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 418px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.photo {
+    position: relative;
+}
+
+#hero {
+    height: 100%;
+    width: 100%;
+
+}
+
+#overlay {
+    position: absolute;
+    bottom: 0;
+}
+
+
+.text {
+    padding: 0 30px;
+    border-bottom: 1.5px solid #F2F5F9;
+}
+
+#title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#small_text {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #677489;
+    margin: 20px 0 25px 0;
+    line-height: 1.5;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 25px 0 25px 30px;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 5px solid #F2F5F9;
+}
+
+#amy {
+    font-family: 'Lato', sans-serif;
+    color: #111729;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 3px;
+
+}
+
+#customer {
+    font-family: 'Lato', sans-serif;
+    color: #677489;
+    font-size: 12px;
+    font-weight: 600;
+}
